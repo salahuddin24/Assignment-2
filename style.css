@@ -10,7 +10,7 @@
   display: flex;
   justify-content: space-between;
 }
-.nav-bar ul{
+ .nav-bar ul{
   display: flex;
 }
 .nav-bar li{
@@ -59,9 +59,9 @@ font-style: normal;
 font-weight: 800;
 line-height: normal;
 }
-.header-img-description{
-  padding:24px 210px;
+.header-img-description{ 
   width: 650px;
+  padding:24px 210px;
   color:#fff;
 text-align: center;
 font-size: 16px;
@@ -228,4 +228,93 @@ padding: 10px 20px;
 .price-guarantee h3{
   padding: 30px 0px;
 }
+
+/* style last section  */
+.last-section{
+  width:1100px;
+  margin: 60px auto;
+  display: flex;
+  gap: 20px;
+} 
+.newsletter{
+  border: 1px solid #FF5400;
+  border-radius: 16px;
+  height: 420px;
+}
+.newsletter h2{
+  color: #131318;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding-top: 10px;
+}
+.newsletter div{
+  padding-left:36px ;
+}
+.newsletter p{
+  padding: 40px 0px ;
+}
+.input-last-section{
+  display: block;
+  margin-bottom: 30px;
+  width: 300px;
+  height: 50px;
+  border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+border: none;
+padding-left: 20px;
+
+}
+
+.btn-primary{
+  width: 300px;
+  background-color: #FF5400;
+  color: white;
+  padding: 15px 20px;
+  border: 0px;
+  border-radius: 5px;
+  font-size: 22px;
+
+}
+.btn-primary:hover{
+  cursor: pointer;
+}
+.save-up{
+  background-color: #FF5400;
+  width: 300px;
+  height: 110px;
+  transform: rotate(-19.628deg);
+flex-shrink: 0;
+border-radius: 16px;
+position: relative;
+left: 367px;
+bottom: 155px;
+color: #FFF;
+text-align: center;
+
+}
+.save-up p{
+  padding-top: 20px;
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.save-up h3{
+  color: #FFF;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+
+
+
+
+
+
+
 
