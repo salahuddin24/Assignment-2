@@ -47,7 +47,6 @@ line-height: normal;
   size: 100%;
   border-radius: 1rem;
   background-repeat: no-repeat;
-   /* background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);  */
   text-align: center;
 
 }
@@ -107,7 +106,7 @@ border: none;
   font-weight: 900;
   line-height: normal;
 }
-.section1-text-container p, .section2-text p{
+.section1-text-container p, .section2-text p,{
   padding: 20px 0;
   color: rgba(19, 19, 24, 0.70);
 font-size: 16px;
@@ -118,7 +117,7 @@ line-height: 26px;
 
 /* section two style  */
 .section-two{
-  width: 1100px;
+  width: 1160px;
   margin:50px auto ;
 }
 .section2-text{
@@ -133,11 +132,100 @@ font-style: normal;
 font-weight: 900;
 line-height: normal;
 }
+  
 
 .row{
   display: flex;
   gap: 20px;
-  padding-top: 20px;
+  
+}
+ .row h3{
+  position: relative;
+  color: #fff;
+  top: 160px;
+  left: 170px;
+  font-size: 1.8rem;
+  font-weight: 700;
+} 
+  .row .kashmir{
+  position: relative;
+  top:160px ;
+  left: 100px;
+}
+.row .bandarban{
+  left: 270px;
+} 
+
+/* style section three  */
+ .section-three{
+  width: 1100px;
+  margin: 50px auto;
+  border: 1px solid tomato;
+
+}
+.why-choose h2{
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
+.light-grey{
+  color: rgba(19, 19, 24, 0.70);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.why-choose p{
+  width: 600px;
+  text-align: center;
+  padding: 20px 250px;
+}
+.hotel-world{
+  display: flex;
+  
+}
+.world{
+  border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+
+background: rgba(41, 206, 246, 0.05);
+padding: 10px 20px;
+
+
+}
+.hotel{
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.20);
+
+  background: rgba(251, 181, 99, 0.05);
+  padding: 10px 20px;
+}
+.hotel-world h3{
+  padding:30px 0px ;
+}
+.price-guarantee{
+  width: 600px;
+  margin:40px 250px ;
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.20);
+  background: rgba(233, 68, 68, 0.05);
+  padding: 10px 20px;
+
+}
+.price-guarantee h3, .hotel-world h3{
+  color: #131318;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+ 
+}
+.price-guarantee h3{
+  padding: 30px 0px;
+}
 
