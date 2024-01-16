@@ -316,9 +316,43 @@ padding-bottom: 40px;
 .bg2-contant-area .satorini-price{
   padding: 20px 0px;
 }
+.packages{
+  margin: 30px 40%;
+}
 
+/* section five style  */
+/* section five style  */
 
-
+.section-five{
+  width: 1170px;
+  height: 420px;
+  margin: 150px auto 100px;
+  display: flex;
+}
+video{
+  width: 585px;
+  height:420px;
+}
+.section5-text h2{
+  color: #131318;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px;
+padding-bottom:25px;
+}
+.section5-text p{
+  padding-bottom: 18px;
+}
+.section5-text button{
+  margin-top: 30px;
+}
+.watch-mountain{
+  position: relative;
+  bottom: 210px;
+  left: 100px;
+  color: #FFF;
+}
 /* style last section  */
 .last-section{
   width:1170px;
@@ -550,6 +584,8 @@ padding-top: 30px;
   width: 90%;
   margin:40px auto ;
 }
+
+
 /* section four  */
 .section-four{
   width: 90%;
@@ -587,6 +623,10 @@ font-size: 30px;
   height: 340px;
   
 }
+.packages{
+  margin: 30px 100px;
+}
+
 
 
 
