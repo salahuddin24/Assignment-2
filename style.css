@@ -240,6 +240,84 @@ padding: 10px 20px;
 .price-guarantee h3{
   padding: 30px 0px;
 }
+ 
+/* section four style  */
+.section-four{
+  width: 1170px;
+  height: 1700px;
+  margin: 60px auto;
+}
+.deals-text{
+  color: #131318;
+text-align: center;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.deals-description{
+  padding: 40px 25%;
+}
+.section4-bg1{
+  background-image: url(./Images/Group\ 39.png);
+   width:100%; 
+   height: 500px;
+}
+.section4-bg1-contant{ 
+  width: 579px;
+  height: 389px;
+  padding-left: 20px;
+  padding-top: 20px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+position: relative;
+top: 80px;
+left: 500px;
+}
+.section4-icon{
+ display: flex;
+ gap: 20px;
+}
+.satorini{ 
+  padding-top: 30px;
+  padding-bottom: 30px;
+color: #131318;
+font-size: 34px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.satorini-price{
+  color: #FF5400;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-top: 40px;
+padding-bottom: 40px;
+}
+.section4-bg2{
+  height: 390px;
+  margin: 40px 0px;
+  background-image: url(./Images/Group\ 40.png);
+  size: 100%;
+}
+.bg2-contant-area{
+  width: 579px;
+  height: 340px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+.bg2-contant-area .satorini-price{
+  padding: 20px 0px;
+}
+
+
 
 /* style last section  */
 .last-section{
@@ -472,6 +550,46 @@ padding-top: 30px;
   width: 90%;
   margin:40px auto ;
 }
+/* section four  */
+.section-four{
+  width: 90%;
+}
+
+.deals-description{
+  padding: 40px 5%;
+}
+.section4-bg1{
+   width:100%; 
+   height: 450px;
+}
+.section4-bg1-contant{ 
+  width: 359px;
+  height: 370px;
+top: 30px;
+left: 100px;
+}
+.section4-icon{
+ gap: 10px;
+}
+.satorini{ 
+  padding-top: 10px;
+  padding-bottom: 10px;
+font-size: 30px;
+}
+
+.section4-bg2{
+  width: 100%;
+  height: 450px;
+
+}
+.bg2-contant-area{
+  width: 369px;
+  height: 340px;
+  
+}
+
+
+
 
 /* style last section  */
 .last-section{
